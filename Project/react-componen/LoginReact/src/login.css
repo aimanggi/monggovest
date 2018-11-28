@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: 'Scada', sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.login {
+	margin-top: 5%;
+}
+
+.modal-bg {
+	height: 100%;
+	width: 50%;
+	border: 1px solid rgba(197,226,250,0.5);
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	padding-bottom: 40px;
+	box-shadow: 0 5px 10px 0 rgba(7,112,200,0.1), 0 10px 20px 0 rgba(5,79,140,0.05);
+}
+.icon-exit {
+	height: 40px;
+	width: 40px;
+	border: 1px solid rgba(197,226,250,0.5);
+	border-radius: 50%;
+	background-color: #FFFFFF;
+	box-shadow: 0 5px 10px 0 rgba(7,112,200,0.1), 0 10px 20px 0 rgba(5,79,140,0.05);
+	float: right;
+	margin: 10px 10px 0 0;
+	padding: 2px;
+	border: 0;
+}
+
+.close {
+    float: right;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 0;
+    color: #0770C8;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    height: 15px;
+}
+
+.icon-x {
+	height: 15px;
+	width: 15px;
+	text-align: center;
+	margin: 10px;
+	border: 1px solid #0770C8;
+}
+
+.login-title {
+    padding-top: 40px;
+    color: #2C313C;
+	font-family: 'Scada', sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 48px;
+    text-align: center;
+	margin-bottom: 72px;
+	margin-left: 50px;
+	
+}
+
+.email-title {
+	height: 17px;
+	color: #494E5A;
+	font-family: 'Scada', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+    line-height: 17px;
+    margin: 0 16.7% 3px 16.7%;
+         
+}
+
+.email-form {
+	height: 100%;
+	width: 67%;
+	border: 1px solid #0770C8;
+    border-radius: 5px;
+    margin: 0 16.7% 0 16.7%;
+    padding: 10px 0 9px 15px;
+    
+}
+
+.pass-title {
+	height: 17px;
+	width: 33px;
+	color: #494E5A;
+	font-family: 'Scada', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+    line-height: 17px;
+    margin: 20px 16.7% 3px 16.7%;
+         
+}
+
+.pass-form {
+	display: inline-block;
+	height: 100%;
+	width: 67%;
+	border: 1px solid #0770C8;
+    border-radius: 5px;
+    margin: 0 16.7% 30px 16.7%;
+	padding: 10px 0 9px 15px;
+	
+    
+}
+
+.pass-icon {
+	-moz-appearance: none;
+	top: 40px;
+	position: relative;
+	height: 40px;
+	float: right;
+	width: 43px;
+	border-radius: 0 5px 5px 0;
+	background: linear-gradient(45deg, #0A3565 0%, #1782D9 100%);
+	border: 0;
+	margin-right: 16.3%;
+    margin-top: 0px;
+    bottom: 0px;
+    
+}
+
+.pass-icon:hover {
+	background: linear-gradient(45deg, rgb(6, 32, 61) 0%, rgb(29, 114, 184) 100%);
+}
+
+
+.icon-stroke {
+	top: 50px;
+	left: 30px;	
+	position: relative;
+	float: right;
+	width: 20px;
+	height: 20px;
+}
+
+.login-button {
+	height: 60px;
+	width: 33%;
+	border-radius: 30px;
+    background: linear-gradient(45deg, #0A3565 0%, #1782D9 100%);
+    margin: 0 33% 40px 33%;
+    border: 0;
+}
+
+.login-button:hover{
+    background: linear-gradient(45deg, rgb(6, 32, 61) 0%, rgb(29, 114, 184) 100%);
+}
+
+.lanjutkan {
+	height: 19px;
+	width: 90px;
+	color: #F5FAFF;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19px;
+	text-align: center;
+}
+
+.forget-link {
+	height: 22px;
+	width: 266px;
+	color: #0770C8;
+	font-family: 'Scada', sans-serif;
+	font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.reg-link {
+	height: 22px;
+	width: 266px;
+	color: #0770C8;
+	font-family: 'Scada', sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+}
+
+.text-center {
+    margin-bottom: 0px;
+}

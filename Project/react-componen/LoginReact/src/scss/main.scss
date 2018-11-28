@@ -1,0 +1,17 @@
+//import variabel
+@import
+  'base/variable';
+
+//import komponen
+@import
+  'components/button',
+  'components/typography';
+
+//import layout
+@import
+  'layout/grid';
+
+//import style halaman
+@import
+  'pages/about',
+  'pages/landing';
