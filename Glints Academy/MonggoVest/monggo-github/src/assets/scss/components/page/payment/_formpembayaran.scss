@@ -1,0 +1,185 @@
+.DatePickers{
+  position: absolute;
+  right: 42px;
+  top: 169px;
+}
+.wrapbox {
+  padding-left:  50px;
+  padding-top: 20px;  
+  margin:auto;
+  position: relative;  
+  height: 820px;  
+  width: 1200px;  
+  border: 1px solid rgba(197,226,250,0.5);  
+  border-radius: 0 10px 10px 0; 
+  background-color: #FFFFFF;  
+  box-shadow: 0 5px 10px 0 rgba(7,112,200,0.1), 0 10px 20px 0 rgba(5,79,140,0.05);
+}
+.inputbox{
+ height: 40px; 
+ width: 535px; 
+ border: 1px solid #0770C8;  
+ border-radius: 5px;
+ padding-left: 15px;
+}
+
+.inputbox1{
+  height: 40px; 
+  width: 535px; 
+  border: 1px solid #0770C8;  
+  border-radius: 5px;
+  padding-left: 15px;
+ }
+ 
+ .inputbox2{
+  height: 40px; 
+  width: 400px; 
+  border: 1px solid #0770C8;  
+  border-radius: 5px;
+  padding-left: 15px;
+ }
+
+ .inputbox3{
+  height: 40px; 
+  width: 80px; 
+  border: 1px solid #0770C8;  
+  border-radius: 5px;
+  padding-left: 15px;
+  position: relative;
+	top: -74px;
+	left: 454px;
+ }
+
+
+ .content1{
+  position: absolute;
+  height: 200px;
+  width: 300px;
+  right: 100px;
+  top :150px;
+  background-color: red;
+}
+.content4{
+  position: absolute;
+  bottom: 65px;
+  right:100px;
+  height: 60px;
+  width:300px;
+  background-color: red;
+
+}
+.atau-lengkapi-data-d { 
+  height: 37px; 
+  color: #2C313C; 
+  font-family: "Akzidenz-Grotesk BQ"; 
+  font-size: 32px;  
+  font-weight: 300; 
+  line-height: 37px;
+}
+
+.informasi-pribadi {  
+  height: 29px; 
+  color: #2C313C; 
+  font-family: "Akzidenz-Grotesk BQ"; 
+  font-size: 24px;  
+  line-height: 29px;}
+
+
+
+  .informasi-kontak { 
+    height: 29px; 
+    color: #2C313C; 
+    font-family: "Akzidenz-Grotesk BQ"; 
+    font-size: 24px;  
+    line-height: 29px;
+  }
+
+    .informasi-penghasilan { 
+      height: 29px; 
+      color: #2C313C; 
+      font-family: "Akzidenz-Grotesk BQ"; 
+      font-size: 24px;  
+      line-height: 29px;
+    }
+
+
+
+
+      /* dropdown penghasilan */
+
+      .select-selected {
+        text-align:left;
+        border: 1px solid #0770C8;  
+        background:transparent;
+        border-radius: 5px;
+        padding:10px;
+      }
+      .custom-select{
+        width:760px;
+      }
+      .custom-select select {
+        display: none; /*hide original SELECT element:*/
+      }
+
+
+      .custom-select {
+
+        position: relative;
+        font-family: Arial;
+      }
+
+      /*style the arrow inside the select element:*/
+      .select-selected:after {
+        position: absolute;
+        content: "\f107"; 
+        font-family:FontAwesome;
+        top:0;
+        bottom:0;
+        right:0;
+        padding:10px 15px;
+        color:#fff;
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px;
+        background:linear-gradient(45deg, #0A3565 0,#1782D9 100%)
+        /*   -webkit-transform: rotate(90deg); */
+      }
+      /*point the arrow upwards when the select box is open (active):*/
+      .select-selected.select-arrow-active:after {
+        content:'\f106';
+      }
+      /*style the items (options), including the selected item:*/
+      .select-items div{
+
+        padding: 8px 16px;
+
+        border: 1px solid transparent;
+        cursor: pointer;
+        user-select: none;
+      }
+
+
+
+      /*style items (options):*/
+      .select-items {
+
+        padding: 10px;
+        box-shadow: -3px 0px 2px -1px #0BD7FC;
+        position: absolute;
+        background-color: white;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 99;
+        max-height:200px;
+        overflow:scroll;
+        overflow-x: hidden;
+      }
+      /*hide the items when the select box is closed:*/
+      .select-hide {
+        display: none;
+
+      }
+      .select-items div:hover, .same-as-selected {
+        background-color: rgba(0, 0, 0, 0.1);
+
+      }

@@ -1,0 +1,68 @@
+.cara-kerja{
+    padding: 0px 40px;
+    margin: 110px 0px;
+}
+.cara-kerja-title{
+    margin: 30px 0px 70px;
+}
+.cara-kerja-title h1{
+    font-size: 34px;
+    text-align: center;
+    color: #2C313C;
+    letter-spacing: 3px;
+}
+.cara-kerja-list{
+    display: grid;
+    grid-template-columns: 1fr 20px 20px 1fr 20px 20px 1fr 20px 20px 1fr;
+    grid-gap: 3px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.cara-kerja-list img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 130px;
+    margin-bottom: 30px;
+    align-self: center;
+}
+.cara-kerja-list p{
+    font-size: 19px;
+    text-align: center;
+}
+.round{
+    height: 16px;
+    width: 16px;
+    background: linear-gradient(45deg, #0A3565 0%, #1782D9 100%);
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+@media screen and (max-width: 786px){
+    .round{
+        display: none;
+    }
+    .cara-kerja-list{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: "cara-kerja-img-1" "cara-kerja-img-2" "cara-kerja-img-3" "cara-kerja-img-4";
+        grid-gap: 40px;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+      
+    .cara-kerja-img-1 { grid-area: cara-kerja-img-1; }
+    
+    .cara-kerja-img-2 { grid-area: cara-kerja-img-2; }
+    
+    .cara-kerja-img-3 { grid-area: cara-kerja-img-3; }
+    
+    .cara-kerja-img-4 { grid-area: cara-kerja-img-4; }
+    
+}
+.butt{
+    text-align: center;
+}

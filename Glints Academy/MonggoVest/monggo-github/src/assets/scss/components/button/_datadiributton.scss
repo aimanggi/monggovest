@@ -1,0 +1,51 @@
+.btns {	
+	height: 60px;	
+	width: 240px;	
+	border-radius: 30px;	
+	background: linear-gradient(45deg, #0A3565 0%, #1782D9 100%);
+}
+
+.btn-outline-primarys {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	position:absolute;
+	top:85%;
+	left:41%;
+}
+
+
+@media (min-width: 800px) and (max-width: 1200px) {
+.btn-outline-primarys {
+
+	left:37%;
+}
+
+}
+
+
+@media (min-width: 401px) and (max-width: 799px) {
+.btn-outline-primarys {
+
+	left:37%;
+}
+
+
+}
+
+
+@media (min-width: 1px) and (max-width: 553px) {
+  
+
+.btn-outline-primarys {
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	position:absolute;
+	top:103%;
+	left:15%;
+}
+
+
+
+}

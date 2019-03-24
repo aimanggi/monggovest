@@ -1,0 +1,120 @@
+.nav-bar {
+  width: 100%;
+  padding: 0px 30px;
+  background: linear-gradient(45deg, #0A3565 0%, #1782D9 100%);
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1);
+  z-index: 5;
+  position: fixed;
+  height: 70px;
+  display: flex;
+}
+
+.topnav{
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-icon {
+  display: none;
+}
+
+.navlogo {
+  margin-right: 30px;
+  align-self: center;
+}
+
+.navstyle{
+  color: #F4FAFF;
+  padding: 12px 20px;
+}
+
+ .navstyle:hover{
+    background-color: #1782D9;
+    color: #F4FAFF;
+  }
+
+/* ---- Login ank ---- */
+.topnav .button{
+  margin-left: auto;
+}
+
+.topnav a:last-child{
+  margin-top: 10 px !important;
+}
+
+.auth-btn{
+  margin-left: auto;
+}
+
+.BTN1 { 
+  outline:none;
+  cursor:pointer;
+  border-radius:20px;
+  font-size: 15px;
+  color: #ffffff;
+  background-color:transparent;
+  border:2px solid #F5FAFF;
+  padding: 2px 28px;
+}
+
+.BTN1:hover {   
+  transition: all 0.5s ease-in-out;
+  background-color:rgb(0, 108, 197);
+}
+
+.button {
+  float: right;
+  margin-right: 12px;
+  margin-top: 20px;
+}
+
+.greet {
+  color: #F4FAFF;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 865px){
+  .topnav { display: none;}
+  .nav-icon {
+    display: flex;
+    color: white;
+    align-self: center;
+    margin-left: auto;
+    // position: absolute;
+    cursor: pointer;
+    padding: 13px;
+    right: 0;
+  }
+
+  .navstyle {
+    display: block
+  }
+
+  .auth-btn {
+    padding: 15px;
+  }
+
+  .open {
+    background: linear-gradient(45deg, #0A3565 0%, #1782D9 100%);
+    display: block;
+    left: 0;
+    top: 100%;
+    position: absolute;
+  }
+
+  .topnav.responsive {
+    position: fixed;
+    flex-direction: column;
+  }
+
+  .topnav.responsive .navstyle {
+    flex-direction: column;
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

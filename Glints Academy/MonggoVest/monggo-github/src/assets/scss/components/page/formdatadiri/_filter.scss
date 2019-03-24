@@ -1,0 +1,65 @@
+   .mvformwrapper1{
+	width: 1200px;
+	height:1200px;
+	margin-left: auto; 
+	margin-right:auto;
+	padding-top:70px;
+}
+
+.mvformwrapper2{
+	text-align: center;
+	margin-bottom: 50px; 
+	margin-top: 40px;
+}
+.mv2pembayaran{
+	font-size: 3.125rem;
+	font-weight: bold;
+	opacity: 0.2; 
+}
+.mv2Lengkapi{
+	font-size: 3.125rem;
+	font-weight: bold;
+}
+
+
+@media (min-width: 800px) and (max-width: 1200px)  {
+  .mvformwrapper1{
+	width: 800px;
+	height: 1200px;
+}
+}
+
+@media (min-width: 673px) and (max-width: 799px){
+	
+	 .mvformwrapper1{
+	width: 650px;
+	height: 1400px;
+	padding-top: 130px;
+ 
+}
+}
+@media (min-width: 554px) and (max-width: 672px){
+	
+	 .mvformwrapper1{
+	width: 550px;
+	height: 1700px;
+	padding-top: 130px;
+
+}
+}
+
+@media (min-width: 1px) and (max-width: 553px)  {
+  .mvformwrapper1{
+	width: 300px;
+	height:1700px;
+	padding-top: 230px;
+}
+.mv2pembayaran{
+	font-size: 3.125rem;
+
+}
+.mv2Lengkapi{
+	font-size: 1.5rem;
+}
+
+}

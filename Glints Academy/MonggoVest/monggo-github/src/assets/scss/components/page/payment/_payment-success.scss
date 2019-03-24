@@ -1,0 +1,45 @@
+.payment-success-wrapper {
+    margin: 132px auto 100px;
+    width: 50%;
+    padding: 20px 50px 20px;
+    height: auto;
+    width: 600px;
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px 0 rgba(7,112,200,0.1), 0 10px 20px 0 rgba(5,79,140,0.05);
+    text-align: center;
+}
+.payment-success-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 55px 65px;
+    grid-template-areas: "payment-success-title" 
+    "payment-success-description"
+    "payment-success-button";
+    justify-items: center;
+}
+.payment-success-title { 
+    grid-area: payment-success-title;
+    color: $main;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.payment-success-description { 
+    grid-area: payment-success-description;
+}
+.payment-success-detail a{
+    text-decoration: none;
+}
+.payment-success-button { 
+    grid-area: payment-success-button;
+}
+.payment-success-button button{
+    margin: auto 25px;
+    height: 45px;	
+    width: 135px;	
+    border-radius: 30px;;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 30px;
+}

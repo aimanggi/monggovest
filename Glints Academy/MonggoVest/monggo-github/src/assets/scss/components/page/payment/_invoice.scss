@@ -1,0 +1,74 @@
+.nav-bar{
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.invoice-wrapper{
+    padding: 70px 50px;
+    height: 460px;
+    width: 600px;
+    border-radius: 0 10px 10px 0;
+    background-color: #F5FAFF;
+    box-shadow: 0 5px 10px 0 rgba(7,112,200,0.1), 0 10px 20px 0 rgba(5,79,140,0.05);
+}
+.invoice-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 40px 1fr 2px 1fr;
+    grid-template-areas: "invoice-title invoice-title" 
+    "invoice-product-name invoice-product-lot" 
+    "invoice-detail-list invoice-detail-result" 
+    "invoice-line invoice-line" 
+    "invoice-total invoice-total-result";
+}
+.invoice-title { 
+    grid-area: invoice-title;
+    font-size: 30px;
+}
+.invoice-product{
+    font-size: 20px;
+}
+.invoice-product-name { 
+    grid-area: invoice-product-name;
+}
+.invoice-product-lot { 
+    grid-area: invoice-product-lot;
+    justify-self: end;
+}
+.invoice-detail-list { 
+    grid-area: invoice-detail-list;
+    padding-left: 20px; 
+}
+.invoice-detail{
+    margin-bottom: 20px;
+}
+.invoice-detail-list ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.invoice-detail-result { 
+    grid-area: invoice-detail-result;
+    justify-self: end;
+}
+.invoice-detail-result ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.invoice-line {
+    grid-area: invoice-line;
+    background-color: #A5A7AC;
+}
+.invoice-total{
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.invoice-total-total { 
+    grid-area: invoice-total;
+}
+.invoice-total-result { 
+    grid-area: invoice-total-result; 
+    justify-self: end;
+}

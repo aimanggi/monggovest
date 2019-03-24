@@ -1,0 +1,79 @@
+
+
+p.mfsbpar{
+  position: absolute;
+  
+}
+.mfsbwrapbox{ 
+  position: relative;
+  width:300px;
+  height:80px;
+  left: 72%; 
+}
+.mfsbsearch-bar{
+ position: absolute;
+  height: 40px; 
+  width: 300px;
+  bottom: 0px;
+  border: 1px solid #0770C8;  
+  border-radius: 5px;
+}
+
+button.mfsbbutton {
+    position:absolute;
+    font-size: 17px;
+  width:60px;
+  height:40px;
+  right: 3%;
+  cursor: pointer;  
+border:none;
+background-color:transparent;
+}
+
+
+.mfsbsearch{
+  position:absolute;
+  width:180px;
+  height:30px;
+  border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  left:15px;
+  top:4px;
+}
+
+
+.mfsbico-mglass {
+  position:absolute;
+  border-radius: 30px;
+  height: 25px;
+  width: 25px;
+  border: 5px solid #0770C8;;
+  top:3px; 
+}
+  .mfsbico-mglass::after {
+    content: "";
+    height: 7px;
+    width: 13px;
+    background:#0770C8;
+    position:absolute;
+    top:17px;
+    left:12px;
+    transform: rotate(45deg);
+  }
+
+  .title-terpopuler.product{
+    padding-top: 60px;
+  }
+  
+  @media (max-width: 640px) {
+    .mfsbwrapbox{ 
+      position: relative;
+      width:90%;
+      height:80px;
+      left: 10%;
+      right:10%;
+    }
+    }
+

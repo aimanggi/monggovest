@@ -1,0 +1,25 @@
+
+// CSS Halaman
+.halaman {
+    padding: 0px;
+    display:inline-flex;
+    cursor:pointer;
+}
+
+.halaman button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.nomor{
+    padding: 10px;
+}
+
+.page-numbers{
+    padding: 0px;
+    margin: 0px;
+}

@@ -1,0 +1,57 @@
+.btn {
+    border-radius: 20px;	
+    background: linear-gradient(45deg, #0A3565 0%, #1782D9 100%);
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+    &:hover {
+        background: linear-gradient(45deg, rgb(6, 41, 80) 0%, rgb(11, 98, 170) 100%);
+    }
+}
+
+.btn-payment-success {
+    font-size: 20px;
+    padding: 5px 30px;
+    margin: 0px 20px;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.btn-invest-detail {
+    margin: 50px 0px 50px;
+    font-weight: 400;
+    font-size: 17px;
+    width: 241px;
+}
+
+.btn.btn-card-detail {
+    height: 42px;
+    width: 190px;
+    font-weight: 600;
+
+    @media screen and (max-width: 888px) {
+        width: 170px;
+    }
+
+    @media screen and (max-width: 789px) {
+        width: 100%;
+    }
+}
+
+.btn-form {
+    width: 230px;
+    font-weight: 600;
+}
+
+.btn.btn-invest {
+    font-weight: 400;
+    width: 300px;
+    font-size: 23px;
+
+    @media screen and (max-width: 435px) {
+        width: 250px;
+    }
+}

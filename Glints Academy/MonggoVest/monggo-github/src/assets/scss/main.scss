@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Scada', sans-serif !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import
+  '~bootstrap/scss/bootstrap';
+
+//import variabel
+
+@import
+  'base/variable';
+
+//import komponen
+@import
+  'components/button/all-btn',
+  
+  'components/navbar-footer/footer',
+  'components/navbar-footer/navbar',
+
+  'components/page/landing-page/cara-kerja',
+  'components/page/landing-page/terpopuler',
+  'components/page/landing-page/slideshow',
+  'components/page/landing-page/not_found',
+
+  'components/page/auth/login',
+  'components/page/auth/signup',
+ 
+  'components/page/auth/email-link',
+  'components/page/auth/change-pass',
+
+  'components/page/product-invest/cardboardproduct',
+  'components/page/product-invest/pagination',
+  'components/page/product-invest/searchbutton',
+
+  'components/page/detail-invest/sharingbar',
+  'components/page/detail-invest/typeproductandprice',
+  'components/page/detail-invest/homecarousel',
+  'components/page/detail-invest/detailinvestasi',
+  'components/popup/invest-popup',
+
+  'components/page/payment/invoice',
+  'components/page/payment/payment-success',
+  'components/page/payment/filter',
+  'components/page/payment/formpembayaran',
+  'components/page/payment/index',
+  'components/page/payment/klikmetodepembayaran',
+  'components/page/payment/styling',
+
+  'components/page/chart/charthome',
+
+  'components/dropdown/dropdowngaji',
+  'components/dropdown/dropdownidentitas',
+  'components/dropdown/dropdownprovinsi1',
+  'components/dropdown/dropdownsumberpenghasilan',
+  'components/page/formdatadiri/filter',
+  // 'components/button/datadiributton',
+  'components/calendar/stylee',
+  'components/page/formdatadiri/formdatadiri';
+
+  
+
+
+//import layout
+@import
+  'layout/grid';
+
+//import SCSS dari library
+@import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";

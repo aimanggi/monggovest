@@ -1,0 +1,64 @@
+.mvfddbox2{
+	width: 1200px;
+	height: 820px;
+
+	padding: 50px 100px 380px 40px;
+	
+
+}
+.spannbox{
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 50px;
+	font-weight: bold;
+	
+	a {
+		color: rgb(182, 182, 182);
+	}
+}
+a.hpembayaran{
+    font-size: 50px;
+	font-weight: bold;
+	color: rgb(182, 182, 182);
+
+	:hover {
+		color: rgb(182, 182, 182);
+	}
+}
+.h1lengkapi{
+    // opacity: 0.2;
+}
+
+.buttonbiru{
+	margin-left: 480px;
+	margin-top:70px;
+}
+.mvfddbox1,p{
+	margin-top: 10px;
+	margin-bottom: 2px;
+
+}
+
+.samping {
+	position: relative;
+	top: -74px;
+	left: 455px;
+}
+
+.mvfddbox1{
+ width: 1270px !important;
+ height: 600px !important;
+ position: relative;
+
+	padding-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	
+	border: 1px solid rgba(197,226,250,0.5);	
+	border-radius: 0 10px 10px 0;	
+	box-shadow: 0 5px 10px 0 rgba(7,112,200,0.1), 0 10px 20px 0 rgba(5,79,140,0.05);
+
+	display: grid;
+	grid-template-columns: auto auto auto;
+}

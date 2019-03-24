@@ -1,0 +1,161 @@
+ .mvfddddgwrapper{
+  position: absolute;
+  width: 50%;
+  height: 80px;
+  left:8%;
+  top:68%;
+ 
+}
+
+.mvfddddgpar{
+  position: absolute;
+  top: 5px;
+ 
+}
+.mvfddddgselect-box--container {
+  
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #0770C8; 
+  
+ 
+
+}
+
+.mvfddddgselect-box--box {
+  width: 102%;
+  position: absolute;
+  bottom: 0px; 
+  left: 0px;
+}
+
+.mvfddddgselect-box--arrow {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background:linear-gradient(45deg, #0A3565 0,#1782D9 100%);
+  position: absolute;
+  right: 1px;
+  top: 1.5px;
+  border-radius: 0 5px 5px 0;
+}
+
+.mvfddddgselect-box--selected-item {
+  display: inline-block;
+  height: 10%;
+  width: 100%;
+  padding: 11px 12px;
+  vertical-align: middle;
+}
+
+.mvfddddgselect-box--items {
+  width: 700px;
+  position: absolute;
+  background: white;
+  z-index: 99;
+}
+
+.mvfddddgselect-box--items div {
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  padding: 11px;
+  padding-left: 20px;
+}
+
+.mvfddddgselect-box--items div.selected {
+}
+
+.mvfddddgselect-box--items div:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.mvfddddgselect-box--arrow-down {
+  position: absolute;
+  top: 17px;
+  left: 12px; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  
+  border-top: 10px solid #fff;
+}
+
+.mvfddddgselect-box--arrow-up {
+  position: absolute;
+  top: 10px;
+  left: 12px; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+
+
+@media (min-width: 554px) and (max-width: 799px) {
+
+
+ .mvfdddd.mvfddddgselect-box--box {
+  width: 102%;
+  position: absolute;
+  bottom: 0px; 
+  left: 0px;
+}
+
+ .mvfddddgwrapper{
+
+  left:8%;
+  top:86%;
+
+}
+
+}
+@media (min-width: 1px) and (max-width: 553px) {
+
+
+.mvfddddgselect-box--container {
+  
+  height: 70px;
+  
+ 
+}
+
+.mvfddddgselect-box--arrow {
+ 
+  height: 70px;
+}
+
+ .mvfddddgwrapper{
+  width:84%;
+  left:8%;
+  top:89%;
+
+}
+.mvfddddgselect-box--arrow-down {
+
+  top: 30px;
+}
+
+.mvfddddgselect-box--arrow-up {
+
+  top: 30px;
+}
+
+.mvfddddgpar{
+  top: -25px;
+ 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
